@@ -6,6 +6,7 @@ Personal recreation of the [VAST Challenge 2019](https://vast-challenge.github.i
 ---
 
 ## Run the Application Locally:
-1. Install dependencies: npm install
-2. Start the server: node index.js
-3. The app runs on port 5000 (http://localhost:5000/)
+1. Clone the repository
+2. Install dependencies: npm install
+3. Start the server: node index.js
+4. The app runs on port 5000 (http://localhost:5000/)
