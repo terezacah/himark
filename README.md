@@ -8,7 +8,38 @@ Developed for academic purposes and **not submitted** as an official challenge e
 
 ---
 
-## Run the Application Locally:
+## Overview
+
+This project presents an interactive visual analytics tool for exploring crowd-sourced reports collected after a simulated earthquake in the fictional city of St. Himark.
+
+The application offers both a high-level overview of the city and detailed analysis of the situation in individual neighborhoods over time, supporting quick and informed decision-making during emergency response.
+
+---
+
+## Features
+- Set of choropleth maps providing a high-level overview of reported damage across the entire city
+- Overlays including report counts, uncertainty levels, shake maps, or key city infrastructure
+- Interactive timeline (line chart) showing the number of reports over time, also used for temporal filtering
+- Detailed view of a selected region combining heatmap, grouped bar chart, and line chart for in-depth analysis of reports in the region
+- Tooltips providing statistical summaries for each region or time point
+
+### City Overview
+![City Overview](img/choropleth.png)
+
+### Detailed Region View
+![Detailed View of a Region](img/detail.png)
+
+---
+
+## Technologies
+- JavaScript
+- D3.js
+- HTML
+- CSS
+
+---
+
+## Run Locally:
 1. Clone the repository
 2. Install dependencies: npm install
 3. Start the server: node index.js
