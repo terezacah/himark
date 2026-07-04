@@ -39,7 +39,7 @@ The application offers both a high-level overview of the city and detailed analy
 
 ---
 
-## Run Locally:
+## Run the Application Locally
 1. Clone the repository
 2. Install dependencies: npm install
 3. Start the server: node index.js
